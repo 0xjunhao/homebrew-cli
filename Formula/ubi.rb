@@ -1,6 +1,6 @@
-class UbicloudCli < Formula
+class Ubi < Formula
   desc "Ubicloud CLI Tool"
-  homepage "https://github.com/ubicloud/homebrew-ubicloud-cli"
+  homepage "https://github.com/ubicloud/homebrew-cli"
   version "1.0.0"
 
   if Hardware::CPU.arm?
@@ -12,10 +12,10 @@ class UbicloudCli < Formula
   end
 
   def install
-    bin.install "ubi" => "ubicloud-cli"
+    bin.install "ubi"
   end
 
   test do
-    system "#{bin}/ubicloud-cli", "--version"
+    system "#{bin}/ubi", "--version"
   end
 end
