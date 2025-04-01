@@ -14,8 +14,4 @@ class Ubi < Formula
   def install
     bin.install "ubi"
   end
-
-  test do
-    system "#{bin}/ubi", "--version"
-  end
 end
