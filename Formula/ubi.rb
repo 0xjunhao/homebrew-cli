@@ -5,10 +5,10 @@ class Ubi < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/ubicloud/cli/releases/download/1.0.0/ubi-darwin-arm64-1.0.0.tar.gz"
-    sha256 "d5ee331198b95e8f1c475a818383d55ce4114e20fd6007e7ff275a9d9567e82a"
+    sha256 "2b9d20707fbe95ad44a275011256630d5669f20d95c907e95bab813e560bc696"
   else
     url "https://github.com/ubicloud/cli/releases/download/1.0.0/ubi-darwin-amd64-1.0.0.tar.gz"
-    sha256 "d7d25f4d5cc115cdcd4c9ea3fcfaf817d18824ff007d62bf75ce005ca5f0f8fc"
+    sha256 "4f541400e9f111a01d06b0b5666ed82a10b7b71c421fcce5170b82814f437f21"
   end
 
   def install
